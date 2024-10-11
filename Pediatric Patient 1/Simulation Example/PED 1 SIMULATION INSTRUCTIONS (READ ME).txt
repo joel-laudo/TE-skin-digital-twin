@@ -1,0 +1,7 @@
+INSTRUCTIONS
+
+Submit the example Abaqus job using the Ped_1_ExpJobMAP.slurm file. The simulation must have a corresponding fortran subroutine file (in this case, Ped_1_Simulation_Controller_MAPV3.f) which contains the UMAT and UAMP subroutine information to run the input file. 
+
+Once the job finishes running, use Read_Final_Growth_Ped_1.py to read the elementwise growth from the .odb file and Read_Final_Deformation_Point_Cloud_Ped_1.py to obtain the final simulation point cloud for calibration.
+
+Use Ped_1_Calculate_Growth_Estimates_Batch_1.m to calculate the total skin growth estimate by integrating over the top surface of the geometry.

@@ -1,0 +1,3 @@
+INSTRUCTIONS
+
+Run Ped_2R_Generate_Final_Inflation_INPs_V1.m to generate a batch of Abaqus input files for the second pediatric patient, right side geometry. The DOE design file is Ped_2R_MAP_design.txt which contains the input parameter values for the maximum a posteriori simulation (the order of the columns is: design number, tol, h, mu, theta^crit, k). The other MATLAB functions and files contain the necessary information to generate the input files.

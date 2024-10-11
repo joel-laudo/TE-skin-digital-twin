@@ -1,0 +1,3 @@
+INSTRUCTIONS
+
+Run Ped_1_Generate_Final_Inflation_INPs_V1.m to generate a batch of Abaqus input files for the first pediatric patient. The DOE design file is Ped_1_MAP_design.txt which contains the input parameter values for each design number (the order of the columns is: design number, tol, h, mu, theta^crit, k). The other MATLAB functions and files contain the necessary information to generate the input files.
