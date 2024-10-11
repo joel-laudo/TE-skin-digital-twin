@@ -1,0 +1,7 @@
+INSTRUCTIONS
+
+Submit the example Abaqus job using the P1C_FINAL_RESEARCH_INFLATION_11V4.slurm file. The simulation must have a corresponding fortran subroutine file (in this case, 1C_Research_Results_Simulation_Controller_11V4) which contains the UMAT and UAMP subroutine information to run the input file. 
+
+Once the job finishes running, use Read_Final_Growth_P1C_V4.py to read the growth from the .odb file and Read_Final_Deformation_Point_Cloud_P1C_V4.py to obtain the final simulation point cloud for calibration.
+
+Use P1C_Calculate_Growth_Estimates_V4.m to calculate the skin growth by integrating over the top surface of the geometry.
